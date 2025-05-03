@@ -9,7 +9,7 @@ function DestinationScroller() {
       {Object.values(mcuDestinations).map((dest) => (
         <Link to={`/${dest.id}`} key={dest.id} className={styles.card}>
           <img
-            src={dest.media.heroImage || '/assets/other/placeholder.webp'} // fallback if empty
+            src={dest.media.heroImage || 'public/assets/other/placeholder.webp'} // fallback if empty
             alt={`${dest.name} preview`}
             className={styles.image}
           />

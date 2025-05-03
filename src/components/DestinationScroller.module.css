@@ -1,7 +1,7 @@
 .scroller {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem;
   justify-content: center;
 }
@@ -9,23 +9,26 @@
 .card {
   background-color: #1a1a1a;
   color: white;
-  text-decoration: none;
+  text-align: center;
   padding: 1rem;
   border-radius: 8px;
-  width: 300px;
-  box-shadow: 0 0 10px rgba(229, 9, 20, 0.3);
   transition: transform 0.2s ease;
+  box-shadow: 0 0 100px rgba(229, 9, 20, 0.3);
+  text-shadow: 0 0 6px #e50914cc;
 }
 
+
 .card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 14px rgba(229, 9, 20, 0.6);
+  transform: scale(1.03);
+  text-shadow: 0 0 12px #e50914cc, 0 0 6px #fff2;
+  box-shadow: 0 0 18px #e50914aa;
 }
+
 
 .image {
   width: 100%;
   border-radius: 4px;
   margin-bottom: 0.5rem;
   object-fit: cover;
-  max-height: 180px;
+  max-height: 8000px;
 }

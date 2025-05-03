@@ -15,13 +15,19 @@
       "font": "Orbitron"
     },
     "media": {
-      "heroImage": "public/assets/knowhere/hero.avif",
+      "heroImage": "public/assets/knowhere/Knowhere_WIE2.webp",
       "gallery": [],
       "icon": "/assets/knowhere/icon.svg"
     },
     "experiences": [],
     "dining": [],
-    "shop": []
+    "shop": [],
+    "availability": {
+      "present": true,
+      "tvaAccess": "no",
+      "era": "modern",
+      "notes": ""
+    }
   },
   "xandar": {
     "id": "xandar",
@@ -39,18 +45,24 @@
       "font": "Orbitron"
     },
     "media": {
-      "heroImage": "public/assets/xandar/hero.avif",
+      "heroImage": "public/assets/xandar/hero.png",
       "gallery": [],
       "icon": "/assets/xandar/icon.svg"
     },
     "experiences": [],
     "dining": [],
-    "shop": []
+    "shop": [],
+    "availability": {
+      "present": false,
+      "tvaAccess": "yes",
+      "era": "pre-2018",
+      "notes": "Destroyed by Thanos. TVA clearance required."
+    }
   },
   "ego": {
     "id": "ego",
     "name": "Ego the Living Planet",
-    "backgroundStory": "A sentient planet and Celestial, Ego is both a cosmic being and a surreal paradise — until it's not.",
+    "backgroundStory": "A sentient planet and Celestial, Ego is both a cosmic being and a surreal paradise \u2014 until it's not.",
     "locationMeta": {
       "galaxy": "Unknown Spiral Cluster",
       "planetType": "Living Planet",
@@ -69,7 +81,13 @@
     },
     "experiences": [],
     "dining": [],
-    "shop": []
+    "shop": [],
+    "availability": {
+      "present": false,
+      "tvaAccess": "yes",
+      "era": "pre-2017",
+      "notes": "Ego was destroyed. Temporal access only."
+    }
   },
   "morag": {
     "id": "morag",
@@ -87,42 +105,24 @@
       "font": "Orbitron"
     },
     "media": {
-      "heroImage": "public/assets/morag/hero.avif",
+      "heroImage": "public/assets/morag/hero.png",
       "gallery": [],
       "icon": "/assets/morag/icon.svg"
     },
     "experiences": [],
     "dining": [],
-    "shop": []
-  },
-  "sokovia": {
-    "id": "sokovia",
-    "name": "Sokovia",
-    "backgroundStory": "A war-torn Eastern European nation, remembered for tragedy and heroism.",
-    "locationMeta": {
-      "galaxy": "Milky Way",
-      "planetType": "Terrestrial",
-      "climate": "Continental",
-      "language": "Sokovian"
-    },
-    "theme": {
-      "primaryColor": "#c62828",
-      "background": "#2b2b2b",
-      "font": "Orbitron"
-    },
-    "media": {
-      "heroImage": "public/assets/sokovia/hero.avif",
-      "gallery": [],
-      "icon": "/assets/sokovia/icon.svg"
-    },
-    "experiences": [],
-    "dining": [],
-    "shop": []
+    "shop": [],
+    "availability": {
+      "present": false,
+      "tvaAccess": "yes",
+      "era": "pre-2014",
+      "notes": "Flooded ruins. Time travel required."
+    }
   },
   "quantumrealm": {
     "id": "quantumrealm",
     "name": "Quantum Realm",
-    "backgroundStory": "A dimension where time and space collapse — beautiful, bizarre, and perilous.",
+    "backgroundStory": "A dimension where time and space collapse \u2014 beautiful, bizarre, and perilous.",
     "locationMeta": {
       "galaxy": "Subatomic Multiverse",
       "planetType": "Quantum Dimension",
@@ -135,13 +135,19 @@
       "font": "Orbitron"
     },
     "media": {
-      "heroImage": "public/assets/quantumrealm/hero.avif",
+      "heroImage": "public/assets/quantumrealm/hero.jpg",
       "gallery": [],
       "icon": "/assets/quantumrealm/icon.svg"
     },
     "experiences": [],
     "dining": [],
-    "shop": []
+    "shop": [],
+    "availability": {
+      "present": true,
+      "tvaAccess": "no",
+      "era": "outside-time",
+      "notes": "Accessible via quantum tunneling."
+    }
   },
   "kamartaj": {
     "id": "kamartaj",
@@ -159,13 +165,19 @@
       "font": "Orbitron"
     },
     "media": {
-      "heroImage": "public/assets/kamartaj/hero.avif",
+      "heroImage": "public/assets/kamartaj/hero.png",
       "gallery": [],
       "icon": "/assets/kamartaj/icon.svg"
     },
     "experiences": [],
     "dining": [],
-    "shop": []
+    "shop": [],
+    "availability": {
+      "present": true,
+      "tvaAccess": "no",
+      "era": "modern",
+      "notes": ""
+    }
   },
   "sanctum": {
     "id": "sanctum",
@@ -183,13 +195,19 @@
       "font": "Orbitron"
     },
     "media": {
-      "heroImage": "public/assets/sanctum/hero.avif",
+      "heroImage": "public/assets/sanctum/hero.jpg",
       "gallery": [],
       "icon": "/assets/sanctum/icon.svg"
     },
     "experiences": [],
     "dining": [],
-    "shop": []
+    "shop": [],
+    "availability": {
+      "present": true,
+      "tvaAccess": "no",
+      "era": "modern",
+      "notes": ""
+    }
   },
   "sakaar": {
     "id": "sakaar",
@@ -207,13 +225,19 @@
       "font": "Orbitron"
     },
     "media": {
-      "heroImage": "public/assets/sakaar/hero.avif",
+      "heroImage": "public/assets/sakaar/hero.png",
       "gallery": [],
       "icon": "/assets/sakaar/icon.svg"
     },
     "experiences": [],
     "dining": [],
-    "shop": []
+    "shop": [],
+    "availability": {
+      "present": true,
+      "tvaAccess": "no",
+      "era": "modern",
+      "notes": ""
+    }
   },
   "wakanda": {
     "id": "wakanda",
@@ -237,7 +261,13 @@
     },
     "experiences": [],
     "dining": [],
-    "shop": []
+    "shop": [],
+    "availability": {
+      "present": true,
+      "tvaAccess": "no",
+      "era": "modern",
+      "notes": ""
+    }
   },
   "titan": {
     "id": "titan",
@@ -255,42 +285,24 @@
       "font": "Orbitron"
     },
     "media": {
-      "heroImage": "public/assets/titan/hero.avif",
+      "heroImage": "public/assets/titan/hero.png",
       "gallery": [],
       "icon": "/assets/titan/icon.svg"
     },
     "experiences": [],
     "dining": [],
-    "shop": []
-  },
-  "zenwhoberi": {
-    "id": "zenwhoberi",
-    "name": "Zen-Whoberi",
-    "backgroundStory": "The destroyed homeworld of Gamora’s species — a solemn reminder of conquest.",
-    "locationMeta": {
-      "galaxy": "Outer Rim",
-      "planetType": "Terrestrial",
-      "climate": "Unknown",
-      "language": "Zenwhoberian"
-    },
-    "theme": {
-      "primaryColor": "#8a2be2",
-      "background": "#1a001a",
-      "font": "Orbitron"
-    },
-    "media": {
-      "heroImage": "public/assets/zenwhoberi/hero.avif",
-      "gallery": [],
-      "icon": "/assets/zenwhoberi/icon.svg"
-    },
-    "experiences": [],
-    "dining": [],
-    "shop": []
+    "shop": [],
+    "availability": {
+      "present": false,
+      "tvaAccess": "yes",
+      "era": "post-collapse",
+      "notes": "Ruined homeworld. Time travel required."
+    }
   },
   "hala": {
     "id": "hala",
     "name": "Hala",
-    "backgroundStory": "The capital of the Kree Empire — proud, militant, and technologically formidable.",
+    "backgroundStory": "The capital of the Kree Empire \u2014 proud, militant, and technologically formidable.",
     "locationMeta": {
       "galaxy": "Large Magellanic Cloud",
       "planetType": "Kree Capital",
@@ -303,36 +315,19 @@
       "font": "Orbitron"
     },
     "media": {
-      "heroImage": "public/assets/hala/hero.avif",
+      "heroImage": "public/assets/hala/hero.png",
       "gallery": [],
       "icon": "/assets/hala/icon.svg"
     },
     "experiences": [],
     "dining": [],
-    "shop": []
-  },
-  "soulworld": {
-    "id": "soulworld",
-    "name": "Soul World",
-    "backgroundStory": "A pocket dimension inside the Soul Stone — peaceful, orange-hued, and eternal.",
-    "locationMeta": {
-      "galaxy": "Soul Stone",
-      "planetType": "Pocket Dimension",
-      "climate": "Timeless",
-      "language": "Emotive Echoes"
-    },
-    "theme": {
-      "primaryColor": "#ff9900",
-      "background": "#331a00",
-      "font": "Orbitron"
-    },
-    "media": {
-      "heroImage": "public/assets/soulworld/hero.avif",
-      "gallery": [],
-      "icon": "/assets/soulworld/icon.svg"
-    },
-    "experiences": [],
-    "dining": [],
-    "shop": []
+    "shop": [],
+    "availability": {
+      "present": false,
+      "tvaAccess": "outlawed",
+      "era": "post-Kree War",
+      "notes": "Access restricted by TVA."
+    }
   }
+
 }

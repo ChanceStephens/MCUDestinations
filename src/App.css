@@ -5,17 +5,20 @@
   min-height: 100vh;
 }
 
+/* HEADER STYLES */
 .marvel-header {
   position: relative;
   height: 300px;
   overflow: hidden;
+  border-bottom: 4px solid #e50914;
+  box-shadow: 0 4px 10px #e5091455;
 }
 
 .background-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.3) contrast(1.1);
+  filter: brightness(0.25) contrast(1.15);
   position: absolute;
   top: 0;
   left: 0;
@@ -27,51 +30,49 @@
   z-index: 2;
   text-align: center;
   padding: 2rem;
+  background: linear-gradient(to bottom, #000000aa, #00000000);
 }
 
 .overlay h1 {
   font-size: 3rem;
   color: #e50914;
   margin: 0;
+  text-shadow: 0 0 12px #e50914aa;
+  letter-spacing: 1px;
 }
 
 .overlay p {
-  font-size: 1.2rem;
-  color: #ffffffbb;
-  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #ffffffcc;
+  margin-top: 0.5rem;
+  text-shadow: 0 0 6px #000;
 }
 
+/* NAVIGATION */
 nav a {
   color: #e50914;
   margin: 0 1rem;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 nav a:hover {
   color: #ff4b4b;
-  text-shadow: 0 0 8px #e50914;
+  text-shadow: 0 0 10px #e50914, 0 0 20px #e50914aa;
 }
 
+/* MAIN LAYOUT */
 .main-content {
-  padding: 2rem;
-}
-.scroller {
   display: flex;
-  overflow-x: auto;
-  gap: 1rem;
-  padding: 1rem 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 25px;
 }
 
-.scroller-card {
-  flex: 0 0 auto;
-  background-color: #1a1a1a;
-  border: 1px solid #333;
-  padding: 1rem;
-  border-radius: 10px;
-  min-width: 250px;
-  color: #fff;
-}
+/* SCROLLER SECTION */
 .scroller {
   display: flex;
   overflow-x: auto;
@@ -88,11 +89,35 @@ nav a:hover {
   padding: 1rem;
   min-width: 250px;
   max-width: 300px;
+  color: #fff;
   scroll-snap-align: start;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .scroller-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 10px #e50914aa;
+  box-shadow: 0 0 12px #e50914cc, 0 0 6px #fff3;
+}
+.marvel-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4rem;
+  background-image: url('/assets/other/marvel-wallpaper.jpg'); /* <- Adjust to your actual path */
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 0 0 6px #e5091455;
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    text-shadow: 0 0 6px #e5091455;
+  }
+  50% {
+    text-shadow: 0 0 18px #e50914aa, 0 0 10px #fff3;
+  }
 }

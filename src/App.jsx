@@ -12,13 +12,13 @@ function App() {
       <div className="app-wrapper">
         <header className="marvel-header">
           <img
-            src="/src/assets/other/marvel-logo-wallpaper.webp"
+            src="/public/other/marvel-logo-wallpaper.webp"
             alt="Marvel Logo Background"
             className="background-img"
           />
           <div className="overlay">
-            <h1>CineVerse Travel Co.</h1>
-            <p>Book a trip across the Marvel Cinematic Universe.</p>
+            <h1>Marvel Adventures</h1>
+            <p>“One Timeline, Unlimited Destinations. Book the Impossible.”</p>
             <nav>
               <Link to="/">Home</Link>
               <Link to="/knowhere">Knowhere</Link>
