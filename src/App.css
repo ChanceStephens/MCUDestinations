@@ -1,0 +1,98 @@
+.app-wrapper {
+  font-family: 'Orbitron', system-ui, sans-serif;
+  color: #fff;
+  background-color: #000;
+  min-height: 100vh;
+}
+
+.marvel-header {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.background-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.3) contrast(1.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.overlay {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 2rem;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  color: #e50914;
+  margin: 0;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  color: #ffffffbb;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  color: #e50914;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff4b4b;
+  text-shadow: 0 0 8px #e50914;
+}
+
+.main-content {
+  padding: 2rem;
+}
+.scroller {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.scroller-card {
+  flex: 0 0 auto;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 1rem;
+  border-radius: 10px;
+  min-width: 250px;
+  color: #fff;
+}
+.scroller {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+}
+
+.scroller-card {
+  flex: 0 0 auto;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 1rem;
+  min-width: 250px;
+  max-width: 300px;
+  scroll-snap-align: start;
+  transition: transform 0.3s ease;
+}
+
+.scroller-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #e50914aa;
+}

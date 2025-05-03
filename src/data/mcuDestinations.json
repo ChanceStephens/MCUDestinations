@@ -1,0 +1,338 @@
+{
+  "knowhere": {
+    "id": "knowhere",
+    "name": "Knowhere",
+    "backgroundStory": "Knowhere is a mining colony and trading outpost built inside the severed head of a Celestial...",
+    "locationMeta": {
+      "galaxy": "Edge of the Andromeda Galaxy",
+      "planetType": "Celestial Skull",
+      "climate": "Artificial, low-gravity, industrial",
+      "language": "Galactic Standard"
+    },
+    "theme": {
+      "primaryColor": "#e50914",
+      "background": "#1a1a1a",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/knowhere/hero.avif",
+      "gallery": [],
+      "icon": "/assets/knowhere/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "xandar": {
+    "id": "xandar",
+    "name": "Xandar",
+    "backgroundStory": "A peaceful, technologically advanced hub and capital of the Nova Empire.",
+    "locationMeta": {
+      "galaxy": "Andromeda Galaxy",
+      "planetType": "Terrestrial",
+      "climate": "Temperate",
+      "language": "Galactic Standard"
+    },
+    "theme": {
+      "primaryColor": "#3db9ff",
+      "background": "#0a1f33",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/xandar/hero.avif",
+      "gallery": [],
+      "icon": "/assets/xandar/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "ego": {
+    "id": "ego",
+    "name": "Ego the Living Planet",
+    "backgroundStory": "A sentient planet and Celestial, Ego is both a cosmic being and a surreal paradise — until it's not.",
+    "locationMeta": {
+      "galaxy": "Unknown Spiral Cluster",
+      "planetType": "Living Planet",
+      "climate": "Lush and artificial",
+      "language": "Telepathic Interface"
+    },
+    "theme": {
+      "primaryColor": "#6e44ff",
+      "background": "#2b1d3a",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/ego/hero.webp",
+      "gallery": [],
+      "icon": "/assets/ego/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "morag": {
+    "id": "morag",
+    "name": "Morag",
+    "backgroundStory": "Once home to an advanced civilization, Morag is now a flooded ruin, sacred to treasure hunters.",
+    "locationMeta": {
+      "galaxy": "Outer Rim",
+      "planetType": "Terrestrial",
+      "climate": "Stormy, flooded",
+      "language": "Ancient Dialect"
+    },
+    "theme": {
+      "primaryColor": "#437c90",
+      "background": "#0f1e28",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/morag/hero.avif",
+      "gallery": [],
+      "icon": "/assets/morag/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "sokovia": {
+    "id": "sokovia",
+    "name": "Sokovia",
+    "backgroundStory": "A war-torn Eastern European nation, remembered for tragedy and heroism.",
+    "locationMeta": {
+      "galaxy": "Milky Way",
+      "planetType": "Terrestrial",
+      "climate": "Continental",
+      "language": "Sokovian"
+    },
+    "theme": {
+      "primaryColor": "#c62828",
+      "background": "#2b2b2b",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/sokovia/hero.avif",
+      "gallery": [],
+      "icon": "/assets/sokovia/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "quantumrealm": {
+    "id": "quantumrealm",
+    "name": "Quantum Realm",
+    "backgroundStory": "A dimension where time and space collapse — beautiful, bizarre, and perilous.",
+    "locationMeta": {
+      "galaxy": "Subatomic Multiverse",
+      "planetType": "Quantum Dimension",
+      "climate": "Abstract/unstable",
+      "language": "Quantum Signals"
+    },
+    "theme": {
+      "primaryColor": "#ff00cc",
+      "background": "#0d0221",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/quantumrealm/hero.avif",
+      "gallery": [],
+      "icon": "/assets/quantumrealm/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "kamartaj": {
+    "id": "kamartaj",
+    "name": "Kamar-Taj",
+    "backgroundStory": "The mystical sanctuary hidden in Kathmandu, where masters of the mystic arts train.",
+    "locationMeta": {
+      "galaxy": "Milky Way",
+      "planetType": "Hidden Earth Locale",
+      "climate": "Himalayan",
+      "language": "Sanskrit, English"
+    },
+    "theme": {
+      "primaryColor": "#ffaa00",
+      "background": "#1f1300",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/kamartaj/hero.avif",
+      "gallery": [],
+      "icon": "/assets/kamartaj/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "sanctum": {
+    "id": "sanctum",
+    "name": "Sanctum Sanctorum",
+    "backgroundStory": "Located in New York City, the Sanctum protects Earth from magical threats.",
+    "locationMeta": {
+      "galaxy": "Milky Way",
+      "planetType": "Urban Earth Locale",
+      "climate": "New York",
+      "language": "Multilingual"
+    },
+    "theme": {
+      "primaryColor": "#9932cc",
+      "background": "#191919",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/sanctum/hero.avif",
+      "gallery": [],
+      "icon": "/assets/sanctum/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "sakaar": {
+    "id": "sakaar",
+    "name": "Sakaar",
+    "backgroundStory": "A chaotic world of gladiator arenas, trash portals, and cosmic scavengers.",
+    "locationMeta": {
+      "galaxy": "Tayo System",
+      "planetType": "Junk World",
+      "climate": "Dry, unpredictable",
+      "language": "Common Sakaaran"
+    },
+    "theme": {
+      "primaryColor": "#39ff14",
+      "background": "#1d1f1f",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/sakaar/hero.avif",
+      "gallery": [],
+      "icon": "/assets/sakaar/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "wakanda": {
+    "id": "wakanda",
+    "name": "Wakanda",
+    "backgroundStory": "A secretive African nation powered by vibranium and steeped in rich tradition and tech.",
+    "locationMeta": {
+      "galaxy": "Milky Way",
+      "planetType": "Earth Nation",
+      "climate": "Savannah/Rainforest",
+      "language": "Xhosa"
+    },
+    "theme": {
+      "primaryColor": "#1abc9c",
+      "background": "#0e0e0e",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/wakanda/hero.avif",
+      "gallery": [],
+      "icon": "/assets/wakanda/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "titan": {
+    "id": "titan",
+    "name": "Titan",
+    "backgroundStory": "The ruined homeworld of Thanos, once prosperous and now a barren wasteland.",
+    "locationMeta": {
+      "galaxy": "Saturn System",
+      "planetType": "Moon",
+      "climate": "Dry, cracked, and hostile",
+      "language": "Titanian"
+    },
+    "theme": {
+      "primaryColor": "#c0c0c0",
+      "background": "#111",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/titan/hero.avif",
+      "gallery": [],
+      "icon": "/assets/titan/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "zenwhoberi": {
+    "id": "zenwhoberi",
+    "name": "Zen-Whoberi",
+    "backgroundStory": "The destroyed homeworld of Gamora’s species — a solemn reminder of conquest.",
+    "locationMeta": {
+      "galaxy": "Outer Rim",
+      "planetType": "Terrestrial",
+      "climate": "Unknown",
+      "language": "Zenwhoberian"
+    },
+    "theme": {
+      "primaryColor": "#8a2be2",
+      "background": "#1a001a",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/zenwhoberi/hero.avif",
+      "gallery": [],
+      "icon": "/assets/zenwhoberi/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "hala": {
+    "id": "hala",
+    "name": "Hala",
+    "backgroundStory": "The capital of the Kree Empire — proud, militant, and technologically formidable.",
+    "locationMeta": {
+      "galaxy": "Large Magellanic Cloud",
+      "planetType": "Kree Capital",
+      "climate": "Cold, rigid",
+      "language": "Kree"
+    },
+    "theme": {
+      "primaryColor": "#0ff",
+      "background": "#010a0f",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/hala/hero.avif",
+      "gallery": [],
+      "icon": "/assets/hala/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  },
+  "soulworld": {
+    "id": "soulworld",
+    "name": "Soul World",
+    "backgroundStory": "A pocket dimension inside the Soul Stone — peaceful, orange-hued, and eternal.",
+    "locationMeta": {
+      "galaxy": "Soul Stone",
+      "planetType": "Pocket Dimension",
+      "climate": "Timeless",
+      "language": "Emotive Echoes"
+    },
+    "theme": {
+      "primaryColor": "#ff9900",
+      "background": "#331a00",
+      "font": "Orbitron"
+    },
+    "media": {
+      "heroImage": "public/assets/soulworld/hero.avif",
+      "gallery": [],
+      "icon": "/assets/soulworld/icon.svg"
+    },
+    "experiences": [],
+    "dining": [],
+    "shop": []
+  }
+}

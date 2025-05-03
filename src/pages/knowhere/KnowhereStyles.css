@@ -1,0 +1,20 @@
+.knowhere-app {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  padding: 2rem;
+}
+
+.knowhere-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.experiences, .dining, .shop {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #e50914;
+  margin-bottom: 0.5rem;
+}

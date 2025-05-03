@@ -1,0 +1,31 @@
+.scroller {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.card {
+  background-color: #1a1a1a;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(229, 9, 20, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 14px rgba(229, 9, 20, 0.6);
+}
+
+.image {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  object-fit: cover;
+  max-height: 180px;
+}
